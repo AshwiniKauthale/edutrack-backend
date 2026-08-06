@@ -12,7 +12,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/profile")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://edutrack-frontend-topaz.vercel.app"
+})
 public class AdminProfileController {
 
     @Autowired
