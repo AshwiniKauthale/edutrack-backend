@@ -12,10 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/teachers")
-@CrossOrigin(origins = {
-        "http://localhost:5173",
-        "https://edutrack-frontend-topaz.vercel.app"
-})
+
 public class TeacherController {
 
     @Autowired

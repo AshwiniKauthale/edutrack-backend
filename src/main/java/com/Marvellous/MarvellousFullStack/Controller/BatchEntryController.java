@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {
-        "http://localhost:5173",
-        "https://edutrack-frontend-topaz.vercel.app"
-})
+
 @RequestMapping("/batches")
 public class BatchEntryController {
 
